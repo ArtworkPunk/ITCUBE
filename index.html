@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="itcubeCSS.css">
+    <script src="itcubeJavaScript.js"></script>
+    <title>[ IT - КУБ ] - Мир возможностей!</title>
+    <link rel="shortcut icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <div class="color"></div>
+    <video autoplay loop muted class="bgvideo" id="bgvideo">
+        <source src="wallpaper.mp4" type="video/mp4"></source>
+       </video>
+
+
+    <div class="headerup">
+        <div class="bar">
+            <img class="iconweb" src="cube.png" alt="itcube" href="itcube.html">
+        </div>
+    </div>
+    
+    <div class="info1">
+        <div class="infotext">
+            <img class="logo" src="logo.png" alt="cube">
+            <div class="textcube">
+                <h1 class="firsttext1">
+                    СЕТЬ ЦЕНТРОВ ЦИФРОВОГО
+                </h1>
+                <h1 class="firsttext2">
+                    ОБРАЗОВАНИЯ ДЕТЕЙ "IT-КУБ"
+                </h1>
+                <button class="infobtn" onclick="downscroll()">
+                    Подробнее
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="color"></div>
+    <div class="info1">
+        <hr class="linezxc">
+
+        <div>
+            <div class="secondtext1">
+                <h1>Что такое "IT-Куб"?</h1>
+                <hr class="lineinfo">
+            </div>
+
+            <div class="secondtext2">
+                <span>
+                    Это центр образования детей по программам, направленным на <span style="color: #00ff2a;">ускоренное освоение актуальных и востребованных знаний, навыков и компетенций в сфере информационных технологий.</span>
+                </span>
+                <h1></h1>
+                <span>
+                    Проект формирует современную образовательную экосистему, объединяющую компании-лидеров ИТ-рынка, опытных наставников и начинающих разработчиков от 7 до 18 лет.
+                </span>
+                <h1></h1>
+                <div class="infobanner1">
+                    <img src="crossplatform.png" alt="cross" class="imgbanner">
+                    <div class="textbaner">
+                        Инфраструктура
+                    </div>
+                    <div class="textbaner">
+                        Качественно новый уровень материально-технического оснащения: высокотехнологичное оборудование и современное оформление пространств
+                    </div>
+                </div>
+                <div class="infobanner2">
+                    <img src="coding.png" alt="cross" class="imgbanner">
+                    <div class="textbaner">
+                        Содержание
+                    </div>
+                    <div class="textbaner">
+                        Востребованные образовательные программы, разработанные вместе с партнерами – лидерами рынка. Актуальные методические разработки, дополнительные онлайн-курсы
+                    </div>
+                </div>
+                <div class="infobanner3">
+                    <img src="technicalsupport.png" alt="cross" class="imgbanner3">
+                    <div class="textbaner">
+                        Кадры
+                    </div>
+                    <div class="textbaner">
+                        Квалифицированные постоянно развивающиеся кадры - большинство практикующие специалисты
+                    </div>
+                    <button class="infobtn2" onclick="downscroll2()">
+                        Дальше
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="color"></div>
+    <div class="info1">
+        <hr class="linezxc">
+
+        <div>
+            <div><h1 class="thirdtext1">
+                Направления
+            </h1></div>
+
+            <div class="movebanner">
+                
+                
+                <div class="iconnavmain">
+                    <img src="robot.png" alt="robot" class="iconnav1">
+                    <div>
+                        <h2>Программирование роботов</h2>
+                    </div>
+                </div>
+
+                <div class="iconnavmain">
+                    <img src="python.png" alt="python" class="iconnav1">
+                    <div>
+                        <h2>Программирование на Python</h2>
+                    </div>
+                </div>
+
+                <div class="iconnavmain">
+                    <img src="administrator.png" alt="robot" class="iconnav1">
+                    <div>
+                        <h2>Системное администрирование</h2>
+                    </div>
+                </div>
+
+                <div class="iconnavmain">
+                    <img src="vr.png" alt="robot" class="iconnav1">
+                    <div>
+                        <h2>Разработка VR/AR–приложений</h2>
+                    </div>
+                </div>
+
+                <button class="infobtn3" onclick="downscroll3()" id="infobtn3" >
+                    Присоединиться
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="color"></div>
+    <div class="info1">
+        <hr class="linezxc">
+        <div>
+            <div>
+                <div class="SECRET" id="SECRET">
+                    Тут пусто!... Вернитесь обратно пожайлуста
+                </div>
+                <div class="foruminfo">
+                    <div id="popup" class="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="closePopup()">&times;</span>
+                            <h2>Отправить данные в IT-КУБ</h2>
+                            <form id="form">
+                                <!-- Ваши поля формы здесь -->
+                                <div class="form-group">
+                                    <label for="name">Имя:</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                    
+                                <div class="form-group">
+                                    <label for="surname">Фамилия:</label>
+                                    <input type="text" id="surname" name="surname" required>
+                                </div>
+                    
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                    
+                                <div class="form-group">
+                                    <label for="address">Адрес:</label>
+                                    <textarea id="address" name="address" rows="4" required></textarea>
+                                </div>
+                        
+
+                                <button type="submit" onclick="submitForm()">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="downbottom">
+        <div class="bardown">
+            Дипломная работа<br>
+            © 2024 ⚡ "ArtworkPunk"
+        </div>
+    </footer>
+</body>
+</html>
