@@ -48,6 +48,12 @@ function submitForm() {
         return;
     }
 
+    alert("Форма успешно заполнена!");
+
+    setTimeout(function() {
+        window.location.href = "news.html";
+    }, 1000);
+
     alert("Данные успешно отправлены!");
 
     closePopup();
