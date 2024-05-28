@@ -427,8 +427,12 @@ li{
 }
 
 .elfsight-app-37a3784a-1e2e-4de2-a69c-520ffeeae205 {
-    top: 50px;
-    position: fixed;
+    top: 60px;
+    position: absolute;
     z-index: 0;
+    left: 50%;
+    margin-left: -500px;
+    position: absolute;
+    width: 1000px;
 }
 
